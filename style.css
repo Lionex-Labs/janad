@@ -179,15 +179,15 @@ img { max-width: 100%; display: block; }
 /* ----------------------------- Why choose us ----------------------------- */
 .why { background: #f7f7f7; padding-bottom: 7rem; }
 .why .section-title { padding-top: 8rem; }
-.why-grid { display: grid; grid-template-columns: 28.4rem 1fr; gap: 12.9rem; align-items: center; margin-top: 2.6rem; }
+.why-grid { display: grid; grid-template-columns: 28.4rem 1fr; gap: 11.5rem; align-items: center; margin-top: 2.6rem; }
 .why-visual img { width: 100%; }
-.features { display: grid; grid-template-columns: 1fr 1fr; column-gap: 4.6rem; row-gap: 5rem; }
+.features { display: grid; grid-template-columns: 1fr 1fr; column-gap: 4rem; row-gap: 5rem; }
 .features article { display: flex; align-items: flex-start; gap: 1.7rem; }
 .features article img { width: 4.4rem; height: auto; flex: none; margin-top: .2rem; }
 .features h3 {
   font-family: var(--display); font-weight: 800;
-  font-size: 1.5rem;         /* 25px in the comp, trimmed a touch to hold one line */
-  color: #4d4d4d; margin: 0 0 .5rem; letter-spacing: .01em;
+  font-size: 1.4rem;         /* 25px in the comp; Poppins runs wider than Lovelo, so trimmed to hold one line */
+  color: #4d4d4d; margin: 0 0 .5rem; letter-spacing: 0;
 }
 .features p { font-size: 1.25rem; line-height: 1.45; margin: 0; }
 

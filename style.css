@@ -247,7 +247,11 @@ img { max-width: 100%; height: auto; display: block; }
   border-left: .55rem solid var(--brown); border-top: .38rem solid transparent; border-bottom: .38rem solid transparent;
 }
 .footer p { font-size: 1.19rem; line-height: 1.95; margin: 0 0 .9rem; }
-.footer-social { display: flex; justify-content: flex-end; gap: 1.5rem; }
+.footer-social {
+  display: flex; justify-content: flex-end; align-items: center; gap: 1.5rem;
+  min-height: calc(1.56rem * 2.05);   /* same height as the footer headings' line, so icons sit level with them */
+}
+.footer-social a { display: flex; }
 .footer-social .ico { width: 2.5rem; height: 2.5rem; }
 .copyright {
   text-align: center; border-top: 1px solid var(--line);
